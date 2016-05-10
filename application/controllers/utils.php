@@ -19,6 +19,11 @@ class Utils extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->envia_alerta();
+	}
+	
+	public function envia_alerta()
+	{
 		$this->load->library('email');
 
 		$this->email->from('marcussoares16@gmail.com', 'Marcus Soares');

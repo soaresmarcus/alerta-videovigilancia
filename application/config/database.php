@@ -48,12 +48,12 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'SYSDBA';
-$db['default']['password'] = 'masterkey';
-$db['default']['database'] = 'D:\bancos\SIENGE_10-04-2015.FDB';
-//$db['default']['port']      = 3050;
-$db['default']['dbdriver'] = 'firebird';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
+$db['default']['port']      = ;
+$db['default']['dbdriver'] = '';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
