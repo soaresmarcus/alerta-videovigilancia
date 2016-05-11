@@ -1,0 +1,1 @@
+wscript.exe "D:\invisible.vbs" "D:\xampp\htdocs\vig\prompt_envio_msg.bat"
